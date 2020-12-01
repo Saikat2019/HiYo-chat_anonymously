@@ -1,5 +1,7 @@
 # HiYo-Chat Anonymously (README)
 
+See the working extension here: https://chrome.google.com/webstore/detail/hiyo-chat-anonymously/nocfklgnphddgdaengibolefpmombome
+
 <img src="https://raw.githubusercontent.com/Saikat2019/MY_README_TEMPLATE/master/README_RES/icon.jpeg" align="right" />
 
 > Used Programming languages/Libraries
