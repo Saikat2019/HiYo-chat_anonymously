@@ -1,6 +1,4 @@
-# MY README TEMPLATE 
-
-*visit https://saikat2019.github.io  & https://saikat2019.github.io/projects.html for more*
+# HiYo-Chat Anonymously (README)
 
 <img src="https://raw.githubusercontent.com/Saikat2019/MY_README_TEMPLATE/master/README_RES/icon.jpeg" align="right" />
 
@@ -19,17 +17,15 @@
 
 ## Installation
 
-- ### 1. First, clone this directory:
+- #### 1. First, clone this directory:
 
 ```bash
 git clone https://github.com/Saikat2019/HiYo-chat_anonymously.git
 ```
 
-- ### 2. Login to http://console.firebase.google.com/ and create a project.
-			Next download the firebase configurations for webapps.
+- #### 2. Login to http://console.firebase.google.com and create a project. Next download the firebase configurations for webapps.
 
-- ### 3. Open the file firebase.js from the clonned directory. Then replace the
-			configurations from line no 3 to 10:
+- #### 3. Open the file firebase.js from the clonned directory. Then replace the configurations from line no 3 to 10:
 
 ```bash
 var firebaseConfig = {
@@ -44,8 +40,7 @@ var firebaseConfig = {
   };
 ```
 
-- ### 4. Save the file. The open Chome and go to manage extension page and load the directory as unpacked.
-			Voila! you can run the extension now.
+- #### 4. Save the file. The open Chome and go to manage extension page and load the directory as unpacked. Voila! you can run the extension now.
 
 [↥ back to top](#table-of-contents)
 
@@ -56,11 +51,6 @@ var firebaseConfig = {
 
 [↥ back to top](#table-of-contents)
 
-## Tools
-
-- [Common Readme Template](https://github.com/Saikat2019/MY_README_TEMPLATE/blob/master/README.md) - A common readme template I use.
-
-[↥ back to top](#table-of-contents)
 
 ## Contribute
 
@@ -74,7 +64,7 @@ Please pick up any open issue.
 
  -	### Feel free to contact me:
 	 - [My Email](mailto:saikatmondal410@gmail.com) 
-	 - [My Facebook ID](https://www.facebook.com/profile.php?id=100011440244328) - *feel free to ping*
+	 - [My Facebook ID](https://www.facebook.com/profile.php?id=100011440244328) - *feel free to ping me*
  
 
 [↥ back to top](#table-of-contents)
