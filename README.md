@@ -6,83 +6,53 @@
 
 > Used Programming languages/Libraries
 
-[![Language](https://img.shields.io/badge/C%2B%2B-17-0000ff.svg)](https://isocpp.org/)
-[![Language](https://img.shields.io/badge/python-3.5-009900.svg)](https://docs.python.org/3/)
-[![Language](https://img.shields.io/badge/Java-18.9-8f00b3.svg)](https://www.java.com/en/)
+[![Language](https://img.shields.io/badge/JavaScript-1.8.5-8f00b3.svg)](#)
 
-[![Library](https://img.shields.io/badge/ROS-kinetic-006600.svg)](http://www.ros.org/)
-[![Library](https://img.shields.io/badge/OpenCV-3.3.1-6600cc.svg)](https://opencv.org/)
+[![Library](https://img.shields.io/badge/jQuery-3.3.1-6600cc.svg)](#)
 
-> To create more badges like the upper ones go to - https://shields.io
-> Full documentation/ MarkDown Guide - https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/
-
-This is a README template I created to use in all my projects.
-
-<p align="center" >
-<img src="README_RES/codesnippet.jpg" height="300" width="600">
-</p>
 
 ## Table of Contents
 - [Installation](#Installation)
-- [Steps](#Steps)
-- [Examples](#Examples)
 - [References](#References)
-- [Tools](#Tools)
-- [Feedback](#Get-Feedback)
 - [Contribute](#Contribute)
-- [License](#License)
+- [Contact](#Get-Feedback)
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+- ### 1. First, clone this directory:
 
 ```bash
-pip install numpy
+git clone https://github.com/Saikat2019/HiYo-chat_anonymously.git
 ```
-[↥ back to top](#table-of-contents)
 
-## Steps  
+- ### 2. Login to http://console.firebase.google.com/ and create a project.
+			Next download the firebase configurations for webapps.
 
-- ### cpp sample code
+- ### 3. Open the file firebase.js from the clonned directory. Then replace the
+			configurations from line no 3 to 10:
 
-```cpp 
-#include <iostream>
-
-using namespace std
-//Always use int main() and return 0 ....never void main()
-int main(){
-	cout << "Hey,I'm Saikat"<<endl;
-}
+```bash
+var firebaseConfig = {
+    apiKey: "your_api_key",
+    authDomain: "your_auth_domain",
+    databaseURL: "your_database_url",
+    projectId: "your_project_id",
+    storageBucket: "your_storage_bucket",
+    messagingSenderId: "your_sender_id",
+    appId: "your_app_id",
+    measurementId: "your_measurement_id"
+  };
 ```
-- ### Java sample code
 
-```java
-class SAIKAT extends PROGRAMMER implements CODING {
-	public SAIKAT(){
-		System.out.println("Hey,I'm Saikat");
-	}
-}
-```
-- ### python sample code
-
-```python
-import cv2
-
-image = cv2.imread("img.png") #reads image
-cv2.imshow(image) #shows the image
-cv2.waitKey(0)
-```
-[↥ back to top](#table-of-contents)
-
-## Examples
-
-- [myRepos/cv_camera](https://github.com/Saikat2019/cv_camera) - How to use camera in *ROS*
+- ### 4. Save the file. The open Chome and go to manage extension page and load the directory as unpacked.
+			Voila! you can run the extension now.
 
 [↥ back to top](#table-of-contents)
 
 ## References
 
-- [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials) - A good source to get startes - *Offocial ROS Tutorials*
+- [Firebase Web docs](https://firebase.google.com/docs/web/setup?authuser=2) - A good source to get started.
+- [Chrome extension tutorial](https://youtu.be/Olz4wo-ILwI) - See this video to get a basic idea about how to develop chrome extensions.
 
 [↥ back to top](#table-of-contents)
 
@@ -92,29 +62,21 @@ cv2.waitKey(0)
 
 [↥ back to top](#table-of-contents)
 
-## Get Feedback
-
- -	### Give me feed back here.
-	 - [My Email](mailto:saikatmondal410@iitkgp.ac.in) 
-	 - [My Facebook ID](https://www.facebook.com/profile.php?id=100011440244328) - *feel free to ping*
- -  ### Me
- 	<p>
-		<img src="https://avatars2.githubusercontent.com/u/33754597?v=4" width="100" height="100" />
-	</p>
-
-[↥ back to top](#table-of-contents)
-
 ## Contribute
 
 Contributions are always welcome!
-Please *create an issue if you find one*.
+Please pick up any open issue.
 
 [↥ back to top](#table-of-contents)
 
-## License
 
->License of the Project goes here.
+## Contact
 
-[MIT](https://choosealicense.com/licenses/mit/)
+ -	### Feel free to contact me:
+	 - [My Email](mailto:saikatmondal410@gmail.com) 
+	 - [My Facebook ID](https://www.facebook.com/profile.php?id=100011440244328) - *feel free to ping*
+ 
 
 [↥ back to top](#table-of-contents)
+
+
