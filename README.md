@@ -65,7 +65,7 @@ Please pick up any open issue.
 ## Contact
 
  -	### Feel free to contact me:
-	 - [My Email](mailto:saikatmondal410@gmail.com) 
+	 - [Join Slack Workspace](https://join.slack.com/t/hiyo-kwoc-workspace/shared_invite/zt-jqo85gv6-wYlGzOkao8YP8_90s91cNA) 
 	 - [My Facebook ID](https://www.facebook.com/profile.php?id=100011440244328) - *feel free to ping me*
  
 
