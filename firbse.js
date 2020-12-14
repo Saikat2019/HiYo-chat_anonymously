@@ -1,14 +1,16 @@
 // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "api_key",
-    authDomain: "auth_domain",
-    databaseURL: "database_url",
-    projectId: "project_id",
-    storageBucket: "storage_bucket",
-    messagingSenderId: "sender_id",
-    appId: "app_id",
-    measurementId: "measurement_id"
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyA3RhPTyziItTjZLHOC_KFqvnkGIvjiBj8",
+    authDomain: "hiyo-fbc1d.firebaseapp.com",
+    databaseURL: "https://hiyo-fbc1d-default-rtdb.firebaseio.com",
+    projectId: "hiyo-fbc1d",
+    storageBucket: "hiyo-fbc1d.appspot.com",
+    messagingSenderId: "294932147146",
+    appId: "1:294932147146:web:dcfc5e88f86a9b7c587d33",
+    measurementId: "G-P9M2L3WKYB"
   };
+
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   var currentSite="";
