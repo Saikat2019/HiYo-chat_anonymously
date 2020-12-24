@@ -22,6 +22,7 @@ $(window).load(function() {
   
   
   
+  
   chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
     let url = tabs[0].url;
     currentSite = (new URL(url)).hostname;
@@ -109,3 +110,21 @@ $(window).on('keydown', function(e) {
     return false;
   }
 });
+
+
+
+
+///adding function for detecting link in normal text 
+
+function findLink(text) {
+    var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+    return text.replace(urlRegex, function(url) {
+        return '<a href="' + url + '">' + url + '</a>';
+    });
+}
+
+
+var txt = 'Text will take you to http://www.example.com and this is my website';
+var link_found = findLink(text);
+
+console.log(link_found)
